@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EEB43E1DB63DA0008D21CC /* KIF+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB4341DB63DA0008D21CC /* KIF+Extensions.swift */; };
+		18EEB43F1DB63DA0008D21CC /* BaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB4361DB63DA0008D21CC /* BaseUITests.swift */; };
+		18EEB4401DB63DA0008D21CC /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB4371DB63DA0008D21CC /* HomeTests.swift */; };
+		18EEB4411DB63DA0008D21CC /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB4381DB63DA0008D21CC /* LoginTests.swift */; };
+		18EEB4421DB63DA0008D21CC /* CommonSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB43B1DB63DA0008D21CC /* CommonSteps.swift */; };
+		18EEB4431DB63DA0008D21CC /* HomeSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB43C1DB63DA0008D21CC /* HomeSteps.swift */; };
+		18EEB4441DB63DA0008D21CC /* LoginSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB43D1DB63DA0008D21CC /* LoginSteps.swift */; };
+		18EEB4461DB63F02008D21CC /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB4451DB63F02008D21CC /* UIColor+Extensions.swift */; };
+		2787861573BE73ED11C5055A /* Pods_SimpleNoteTakingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0E95450D6880AF7638F8F5 /* Pods_SimpleNoteTakingApp.framework */; };
+		2DB49DEAC0C4217C1693F5C9 /* Pods_SimpleNoteTakingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759F63F7D7423A62927BA011 /* Pods_SimpleNoteTakingAppTests.framework */; };
+		F3594B391D99FCC70046DA07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3594B381D99FCC70046DA07 /* AppDelegate.swift */; };
+		F3594B3E1D99FCC70046DA07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3594B3C1D99FCC70046DA07 /* Main.storyboard */; };
+		F3594B401D99FCC70046DA07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3594B3F1D99FCC70046DA07 /* Assets.xcassets */; };
+		F3594B431D99FCC70046DA07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3594B411D99FCC70046DA07 /* LaunchScreen.storyboard */; };
+		F3594B721D9B552D0046DA07 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3594B671D9B552D0046DA07 /* Constants.swift */; };
+		F3594B731D9B552D0046DA07 /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3594B691D9B552D0046DA07 /* UIStoryboard+Extensions.swift */; };
+		F3594B741D9B552D0046DA07 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3594B6A1D9B552D0046DA07 /* UITableView+Extensions.swift */; };
+		F3594B751D9B552D0046DA07 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3594B6B1D9B552D0046DA07 /* UIViewController+Extensions.swift */; };
+		F3594B761D9B552D0046DA07 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3594B6D1D9B552D0046DA07 /* Note.swift */; };
+		F3594B771D9B552D0046DA07 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3594B6F1D9B552D0046DA07 /* HomeViewController.swift */; };
+		F3594B781D9B552D0046DA07 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3594B701D9B552D0046DA07 /* LoginViewController.swift */; };
+		F3594B791D9B552D0046DA07 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3594B711D9B552D0046DA07 /* NoteViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3594B4A1D99FCC70046DA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3594B2D1D99FCC70046DA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3594B341D99FCC70046DA07;
+			remoteInfo = SimpleNoteTakingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EF98704AF410F61BBA9BD1 /* Pods-SimpleNoteTakingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNoteTakingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNoteTakingApp/Pods-SimpleNoteTakingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		18EEB4341DB63DA0008D21CC /* KIF+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KIF+Extensions.swift"; sourceTree = "<group>"; };
+		18EEB4361DB63DA0008D21CC /* BaseUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUITests.swift; sourceTree = "<group>"; };
+		18EEB4371DB63DA0008D21CC /* HomeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
+		18EEB4381DB63DA0008D21CC /* LoginTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
+		18EEB4391DB63DA0008D21CC /* SimpleNoteTakingAppTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimpleNoteTakingAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		18EEB43B1DB63DA0008D21CC /* CommonSteps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonSteps.swift; sourceTree = "<group>"; };
+		18EEB43C1DB63DA0008D21CC /* HomeSteps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSteps.swift; sourceTree = "<group>"; };
+		18EEB43D1DB63DA0008D21CC /* LoginSteps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSteps.swift; sourceTree = "<group>"; };
+		18EEB4451DB63F02008D21CC /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		2BD90F8AC0B31C6DB7A3DFD7 /* Pods-SimpleNoteTakingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNoteTakingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNoteTakingAppTests/Pods-SimpleNoteTakingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C5AADD9672AD06049495439 /* Pods-SimpleNoteTakingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNoteTakingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNoteTakingAppTests/Pods-SimpleNoteTakingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E0E95450D6880AF7638F8F5 /* Pods_SimpleNoteTakingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNoteTakingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		759F63F7D7423A62927BA011 /* Pods_SimpleNoteTakingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNoteTakingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20011C818B47727914AC427 /* Pods-SimpleNoteTakingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNoteTakingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNoteTakingApp/Pods-SimpleNoteTakingApp.release.xcconfig"; sourceTree = "<group>"; };
+		F3594B351D99FCC70046DA07 /* SimpleNoteTakingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleNoteTakingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3594B381D99FCC70046DA07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3594B3D1D99FCC70046DA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3594B3F1D99FCC70046DA07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3594B421D99FCC70046DA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3594B441D99FCC70046DA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3594B491D99FCC70046DA07 /* SimpleNoteTakingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNoteTakingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3594B4F1D99FCC70046DA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3594B671D9B552D0046DA07 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F3594B691D9B552D0046DA07 /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
+		F3594B6A1D9B552D0046DA07 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		F3594B6B1D9B552D0046DA07 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		F3594B6D1D9B552D0046DA07 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		F3594B6F1D9B552D0046DA07 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F3594B701D9B552D0046DA07 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F3594B711D9B552D0046DA07 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3594B321D99FCC70046DA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2787861573BE73ED11C5055A /* Pods_SimpleNoteTakingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3594B461D99FCC70046DA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB49DEAC0C4217C1693F5C9 /* Pods_SimpleNoteTakingAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060CE08A55E090BD9B062DA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0E95450D6880AF7638F8F5 /* Pods_SimpleNoteTakingApp.framework */,
+				759F63F7D7423A62927BA011 /* Pods_SimpleNoteTakingAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18EEB4331DB63DA0008D21CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB4341DB63DA0008D21CC /* KIF+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18EEB4351DB63DA0008D21CC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB4361DB63DA0008D21CC /* BaseUITests.swift */,
+				18EEB4371DB63DA0008D21CC /* HomeTests.swift */,
+				18EEB4381DB63DA0008D21CC /* LoginTests.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		18EEB43A1DB63DA0008D21CC /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB43B1DB63DA0008D21CC /* CommonSteps.swift */,
+				18EEB43C1DB63DA0008D21CC /* HomeSteps.swift */,
+				18EEB43D1DB63DA0008D21CC /* LoginSteps.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		BE27EEC73A32BAAEE7388A9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08EF98704AF410F61BBA9BD1 /* Pods-SimpleNoteTakingApp.debug.xcconfig */,
+				B20011C818B47727914AC427 /* Pods-SimpleNoteTakingApp.release.xcconfig */,
+				2BD90F8AC0B31C6DB7A3DFD7 /* Pods-SimpleNoteTakingAppTests.debug.xcconfig */,
+				5C5AADD9672AD06049495439 /* Pods-SimpleNoteTakingAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3594B2C1D99FCC70046DA07 = {
+			isa = PBXGroup;
+			children = (
+				F3594B371D99FCC70046DA07 /* SimpleNoteTakingApp */,
+				F3594B4C1D99FCC70046DA07 /* SimpleNoteTakingAppTests */,
+				F3594B361D99FCC70046DA07 /* Products */,
+				BE27EEC73A32BAAEE7388A9F /* Pods */,
+				060CE08A55E090BD9B062DA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3594B361D99FCC70046DA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3594B351D99FCC70046DA07 /* SimpleNoteTakingApp.app */,
+				F3594B491D99FCC70046DA07 /* SimpleNoteTakingAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3594B371D99FCC70046DA07 /* SimpleNoteTakingApp */ = {
+			isa = PBXGroup;
+			children = (
+				F3594B7A1D9B55400046DA07 /* Support */,
+				F3594B661D9B552D0046DA07 /* Config */,
+				F3594B681D9B552D0046DA07 /* Extensions */,
+				F3594B6C1D9B552D0046DA07 /* Models */,
+				F3594B6E1D9B552D0046DA07 /* ViewControllers */,
+				F3594B3C1D99FCC70046DA07 /* Main.storyboard */,
+				F3594B381D99FCC70046DA07 /* AppDelegate.swift */,
+			);
+			path = SimpleNoteTakingApp;
+			sourceTree = "<group>";
+		};
+		F3594B4C1D99FCC70046DA07 /* SimpleNoteTakingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB4331DB63DA0008D21CC /* Extensions */,
+				18EEB4351DB63DA0008D21CC /* Features */,
+				18EEB4391DB63DA0008D21CC /* SimpleNoteTakingAppTests-Bridging-Header.h */,
+				18EEB43A1DB63DA0008D21CC /* Steps */,
+				F3594B4F1D99FCC70046DA07 /* Info.plist */,
+			);
+			path = SimpleNoteTakingAppTests;
+			sourceTree = "<group>";
+		};
+		F3594B661D9B552D0046DA07 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F3594B671D9B552D0046DA07 /* Constants.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		F3594B681D9B552D0046DA07 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB4451DB63F02008D21CC /* UIColor+Extensions.swift */,
+				F3594B691D9B552D0046DA07 /* UIStoryboard+Extensions.swift */,
+				F3594B6A1D9B552D0046DA07 /* UITableView+Extensions.swift */,
+				F3594B6B1D9B552D0046DA07 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F3594B6C1D9B552D0046DA07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3594B6D1D9B552D0046DA07 /* Note.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3594B6E1D9B552D0046DA07 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3594B6F1D9B552D0046DA07 /* HomeViewController.swift */,
+				F3594B701D9B552D0046DA07 /* LoginViewController.swift */,
+				F3594B711D9B552D0046DA07 /* NoteViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F3594B7A1D9B55400046DA07 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F3594B3F1D99FCC70046DA07 /* Assets.xcassets */,
+				F3594B411D99FCC70046DA07 /* LaunchScreen.storyboard */,
+				F3594B441D99FCC70046DA07 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3594B341D99FCC70046DA07 /* SimpleNoteTakingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3594B521D99FCC70046DA07 /* Build configuration list for PBXNativeTarget "SimpleNoteTakingApp" */;
+			buildPhases = (
+				BD3958C1EB521C3903704132 /* [CP] Check Pods Manifest.lock */,
+				F3594B311D99FCC70046DA07 /* Sources */,
+				F3594B321D99FCC70046DA07 /* Frameworks */,
+				F3594B331D99FCC70046DA07 /* Resources */,
+				0E89A0DB0B1948A8A9D2AE83 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleNoteTakingApp;
+			productName = SimpleNoteTakingApp;
+			productReference = F3594B351D99FCC70046DA07 /* SimpleNoteTakingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3594B481D99FCC70046DA07 /* SimpleNoteTakingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3594B551D99FCC70046DA07 /* Build configuration list for PBXNativeTarget "SimpleNoteTakingAppTests" */;
+			buildPhases = (
+				98D18A9B4A5B6B800CD523F6 /* [CP] Check Pods Manifest.lock */,
+				F3594B451D99FCC70046DA07 /* Sources */,
+				F3594B461D99FCC70046DA07 /* Frameworks */,
+				F3594B471D99FCC70046DA07 /* Resources */,
+				72CDFA668CDF702B7FE001DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3594B4B1D99FCC70046DA07 /* PBXTargetDependency */,
+			);
+			name = SimpleNoteTakingAppTests;
+			productName = SimpleNoteTakingAppTests;
+			productReference = F3594B491D99FCC70046DA07 /* SimpleNoteTakingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3594B2D1D99FCC70046DA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AppCoda;
+				TargetAttributes = {
+					F3594B341D99FCC70046DA07 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H26ACT58Y3;
+						LastSwiftMigration = 0800;
+					};
+					F3594B481D99FCC70046DA07 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H26ACT58Y3;
+						LastSwiftMigration = 0800;
+						TestTargetID = F3594B341D99FCC70046DA07;
+					};
+				};
+			};
+			buildConfigurationList = F3594B301D99FCC70046DA07 /* Build configuration list for PBXProject "SimpleNoteTakingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3594B2C1D99FCC70046DA07;
+			productRefGroup = F3594B361D99FCC70046DA07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3594B341D99FCC70046DA07 /* SimpleNoteTakingApp */,
+				F3594B481D99FCC70046DA07 /* SimpleNoteTakingAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3594B331D99FCC70046DA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3594B431D99FCC70046DA07 /* LaunchScreen.storyboard in Resources */,
+				F3594B401D99FCC70046DA07 /* Assets.xcassets in Resources */,
+				F3594B3E1D99FCC70046DA07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3594B471D99FCC70046DA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E89A0DB0B1948A8A9D2AE83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNoteTakingApp/Pods-SimpleNoteTakingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNoteTakingApp/Pods-SimpleNoteTakingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72CDFA668CDF702B7FE001DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNoteTakingAppTests/Pods-SimpleNoteTakingAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNoteTakingAppTests/Pods-SimpleNoteTakingAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98D18A9B4A5B6B800CD523F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleNoteTakingAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD3958C1EB521C3903704132 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleNoteTakingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3594B311D99FCC70046DA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3594B731D9B552D0046DA07 /* UIStoryboard+Extensions.swift in Sources */,
+				18EEB4461DB63F02008D21CC /* UIColor+Extensions.swift in Sources */,
+				F3594B391D99FCC70046DA07 /* AppDelegate.swift in Sources */,
+				F3594B751D9B552D0046DA07 /* UIViewController+Extensions.swift in Sources */,
+				F3594B721D9B552D0046DA07 /* Constants.swift in Sources */,
+				F3594B791D9B552D0046DA07 /* NoteViewController.swift in Sources */,
+				F3594B781D9B552D0046DA07 /* LoginViewController.swift in Sources */,
+				F3594B741D9B552D0046DA07 /* UITableView+Extensions.swift in Sources */,
+				F3594B771D9B552D0046DA07 /* HomeViewController.swift in Sources */,
+				F3594B761D9B552D0046DA07 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3594B451D99FCC70046DA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EEB4431DB63DA0008D21CC /* HomeSteps.swift in Sources */,
+				18EEB43F1DB63DA0008D21CC /* BaseUITests.swift in Sources */,
+				18EEB4401DB63DA0008D21CC /* HomeTests.swift in Sources */,
+				18EEB43E1DB63DA0008D21CC /* KIF+Extensions.swift in Sources */,
+				18EEB4421DB63DA0008D21CC /* CommonSteps.swift in Sources */,
+				18EEB4441DB63DA0008D21CC /* LoginSteps.swift in Sources */,
+				18EEB4411DB63DA0008D21CC /* LoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3594B4B1D99FCC70046DA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3594B341D99FCC70046DA07 /* SimpleNoteTakingApp */;
+			targetProxy = F3594B4A1D99FCC70046DA07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3594B3C1D99FCC70046DA07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3594B3D1D99FCC70046DA07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3594B411D99FCC70046DA07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3594B421D99FCC70046DA07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3594B501D99FCC70046DA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3594B511D99FCC70046DA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3594B531D99FCC70046DA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EF98704AF410F61BBA9BD1 /* Pods-SimpleNoteTakingApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H26ACT58Y3;
+				INFOPLIST_FILE = SimpleNoteTakingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anilt.SimpleNoteTakingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3594B541D99FCC70046DA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20011C818B47727914AC427 /* Pods-SimpleNoteTakingApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H26ACT58Y3;
+				INFOPLIST_FILE = SimpleNoteTakingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anilt.SimpleNoteTakingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F3594B561D99FCC70046DA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD90F8AC0B31C6DB7A3DFD7 /* Pods-SimpleNoteTakingAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H26ACT58Y3;
+				INFOPLIST_FILE = SimpleNoteTakingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appcoda.SimpleNoteTakingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleNoteTakingApp.app/SimpleNoteTakingApp";
+			};
+			name = Debug;
+		};
+		F3594B571D99FCC70046DA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5AADD9672AD06049495439 /* Pods-SimpleNoteTakingAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H26ACT58Y3;
+				INFOPLIST_FILE = SimpleNoteTakingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appcoda.SimpleNoteTakingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleNoteTakingApp.app/SimpleNoteTakingApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3594B301D99FCC70046DA07 /* Build configuration list for PBXProject "SimpleNoteTakingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3594B501D99FCC70046DA07 /* Debug */,
+				F3594B511D99FCC70046DA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3594B521D99FCC70046DA07 /* Build configuration list for PBXNativeTarget "SimpleNoteTakingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3594B531D99FCC70046DA07 /* Debug */,
+				F3594B541D99FCC70046DA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3594B551D99FCC70046DA07 /* Build configuration list for PBXNativeTarget "SimpleNoteTakingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3594B561D99FCC70046DA07 /* Debug */,
+				F3594B571D99FCC70046DA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3594B2D1D99FCC70046DA07 /* Project object */;
+}
